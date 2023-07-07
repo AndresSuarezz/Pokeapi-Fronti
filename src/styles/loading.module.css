@@ -1,0 +1,13 @@
+.loading {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.loadingIcon {
+    width: 30%;
+    height: 30%;
+    max-width: 300px;
+    max-height: 200px;
+    object-fit: contain;
+}

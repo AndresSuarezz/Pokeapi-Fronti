@@ -1,0 +1,48 @@
+.pokemon {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pokeballButton {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  align-items: center;
+  background: none;
+  padding: 0;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.pokeballImg {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.pokemonInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.pokemonInfoImage {
+  width: 200px;
+  height: 200px;
+  margin-top: 1rem;
+}
+
+.pokemonTitle {
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.pokemonStat {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
